@@ -449,4 +449,5 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
     ro.product.model
 
 GAPPS_VARIANT := mini
+GAPPS_FORCE_BROWSER_OVERRIDES := true
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
